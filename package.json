@@ -1,0 +1,65 @@
+{
+  "name": "nextjs-template",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx}",
+    "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx} --fix",
+    "stylelint": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss}",
+    "stylelint:fix": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss} --fix",
+    "format": "prettier --ignore-path .gitignore --write --ignore-unknown ./src/**/*.{js,jsx,ts,tsx}",
+    "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown ./src/**/*.{js,jsx,ts,tsx}",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "yarn lint:fix",
+      "yarn format"
+    ],
+    "src/**/*.{css,sass,scss}": [
+      "yarn stylelint:fix",
+      "yarn format"
+    ]
+  },
+  "packageManager": "yarn@3.7.0",
+  "volta": {
+    "node": "20.10.0"
+  },
+  "dependencies": {
+    "destyle.css": "4.0.0",
+    "next": "14.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.3",
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "@types/node": "20.10.0",
+    "@types/react": "18.2.38",
+    "@typescript-eslint/eslint-plugin": "6.12.0",
+    "@typescript-eslint/parser": "6.12.0",
+    "babel-loader": "9.1.3",
+    "css-loader": "6.8.1",
+    "eslint": "8.54.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "17.1.0",
+    "eslint-config-next": "14.0.3",
+    "eslint-config-prettier": "9.0.0",
+    "husky": "8.0.3",
+    "lint-staged": "15.1.0",
+    "prettier": "3.1.0",
+    "sass": "1.69.5",
+    "sass-loader": "13.3.2",
+    "style-loader": "3.3.3",
+    "stylelint": "15.11.0",
+    "stylelint-config-prettier": "9.0.5",
+    "stylelint-config-recess-order": "4.4.0",
+    "stylelint-config-standard-scss": "11.1.0",
+    "stylelint-prettier": "4.1.0",
+    "typescript": "5.3.2"
+  }
+}
