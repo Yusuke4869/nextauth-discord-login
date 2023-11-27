@@ -2,6 +2,8 @@ import { Roboto } from "next/font/google";
 import type { FC, ReactNode } from "react";
 import "~/styles/globals.scss";
 
+import { NextAuthProvider } from "./providers";
+
 type Props = {
   children: ReactNode;
 };
@@ -14,11 +16,13 @@ const roboto = Roboto({
 });
 
 const Layout: FC<Props> = ({ children }) => (
-  <html lang="ja">
-    <body className={roboto.className}>
-      <main>{children}</main>
-    </body>
-  </html>
+  <NextAuthProvider>
+    <html lang="ja">
+      <body className={roboto.className}>
+        <main>{children}</main>
+      </body>
+    </html>
+  </NextAuthProvider>
 );
 
 export default Layout;
