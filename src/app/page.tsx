@@ -1,13 +1,10 @@
 import type { Metadata, NextPage } from "next";
+import Index from "~/components";
 
 export const metadata: Metadata = {
   title: "Hello World!",
 };
 
-const Home: NextPage = () => (
-  <div>
-    <h1>Hello World</h1>
-  </div>
-);
+const Home: NextPage = () => <Index />;
 
 export default Home;
