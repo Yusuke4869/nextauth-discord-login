@@ -2457,10 +2457,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"destyle.css@npm:4.0.0":
-  version: 4.0.0
-  resolution: "destyle.css@npm:4.0.0"
-  checksum: 7c8a948cee431057e3554bad1d68571424eecd007a0f0a170372e1cce92366389843a68249b6e6c533e2d9871ada727c23cc1ed9e618a0d39eb7277b1a0c49fd
+"destyle.css@npm:4.0.1":
+  version: 4.0.1
+  resolution: "destyle.css@npm:4.0.1"
+  checksum: 3a0a91df197ede95a186337a45276dcf406c3a0b0bf71e00a1744d9e82976a1efb5bc08006dfe3654ab8f23467305adb26c745e414acbce45b1648aab49c180b
   languageName: node
   linkType: hard
 
@@ -5003,7 +5003,7 @@ __metadata:
     "@typescript-eslint/parser": 6.19.0
     babel-loader: 9.1.3
     css-loader: 6.9.1
-    destyle.css: 4.0.0
+    destyle.css: 4.0.1
     eslint: 8.56.0
     eslint-config-airbnb: 19.0.4
     eslint-config-airbnb-typescript: 17.1.0
