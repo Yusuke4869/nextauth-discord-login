@@ -5049,7 +5049,7 @@ __metadata:
     style-loader: 3.3.4
     stylelint: 15.11.0
     stylelint-config-prettier: 9.0.5
-    stylelint-config-recess-order: 4.4.0
+    stylelint-config-recess-order: 4.5.0
     stylelint-config-standard-scss: 11.1.0
     stylelint-prettier: 4.1.0
     typescript: 5.3.3
@@ -6591,14 +6591,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-recess-order@npm:4.4.0":
-  version: 4.4.0
-  resolution: "stylelint-config-recess-order@npm:4.4.0"
+"stylelint-config-recess-order@npm:4.5.0":
+  version: 4.5.0
+  resolution: "stylelint-config-recess-order@npm:4.5.0"
   dependencies:
     stylelint-order: 6.x
   peerDependencies:
     stylelint: ">=15"
-  checksum: 8090e1e7a2b8db1fe924d52cc4eaabfc927791d4d49a3d158032f6231ec3e8b7c362d515a53e091f9acf110d13c83354fd5eb0f7d43bef9aa7da0e2d61b89a17
+  checksum: 1b1540b96c24796003e0882d938a3567a84b559bd4de1a2d2a2d22b70ec6e12dcb7277869930ef6c55868b9d7bcc9f2fc847c471481399be5dd4316e7e33ae73
   languageName: node
   linkType: hard
 
