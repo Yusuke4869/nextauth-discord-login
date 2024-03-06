@@ -1260,12 +1260,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.24":
-  version: 20.11.24
-  resolution: "@types/node@npm:20.11.24"
+"@types/node@npm:20.11.25":
+  version: 20.11.25
+  resolution: "@types/node@npm:20.11.25"
   dependencies:
     undici-types: ~5.26.4
-  checksum: b11a650e09e254f4725c94f226752b69949a9ac4a5e004e98f109437ac50b02df3ab4d12b2086722fedf2cb62e68b9e723abd3f358a7d7d90d741a0d3bee90c2
+  checksum: bdb29da3f3dc687a0104cb70e30b5277d9df8f22843a4ed94835762683a95a8a0ea0c2ed0cf96f6eeff348491dd50dd9b20307d08f71ba7cb489d54a81cbbfec
   languageName: node
   linkType: hard
 
@@ -1317,14 +1317,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.62":
-  version: 18.2.62
-  resolution: "@types/react@npm:18.2.62"
+"@types/react@npm:18.2.64":
+  version: 18.2.64
+  resolution: "@types/react@npm:18.2.64"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: f3979e8d6eadbd27fdbbe10aeaefc164b5a8a1af1df1a099cf8a950b4ea0a6cb6a7b36ff26fccecafcbb9086a908806f4f3b3c826909d97de31fc6bf572feaf1
+  checksum: 1fd28dc5e5d191619e0b001485f428a070bad11f55683a212d3bd937bdc979335913f90f4ca4f0510871e5f35d8f46b169a23276fb048d06584623d3652cc0f3
   languageName: node
   linkType: hard
 
@@ -5032,8 +5032,8 @@ __metadata:
     "@emotion/styled": ^11.11.0
     "@mui/material": ^5.14.18
     "@trivago/prettier-plugin-sort-imports": 4.3.0
-    "@types/node": 20.11.24
-    "@types/react": 18.2.62
+    "@types/node": 20.11.25
+    "@types/react": 18.2.64
     "@typescript-eslint/eslint-plugin": 6.21.0
     "@typescript-eslint/parser": 6.21.0
     babel-loader: 9.1.3
