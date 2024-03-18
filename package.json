@@ -42,8 +42,8 @@
   "devDependencies": {
     "@babel/core": "7.24.0",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
-    "@types/node": "20.11.28",
-    "@types/react": "18.2.66",
+    "@types/node": "20.11.29",
+    "@types/react": "18.2.67",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
     "babel-loader": "9.1.3",
